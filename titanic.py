@@ -33,7 +33,7 @@ title_st = st.selectbox("Which title would you prefer?", options=title_list)
 
 # Gender columns with portraits
 male_pic = Image.open('male.jpeg')
-female_pic = Image.open('female.jpg')
+female_pic = Image.open('female.png')
 other_pic = Image.open('other.jpeg')
 
 st.text("Please choose your gender:")
