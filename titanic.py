@@ -4,8 +4,8 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 
-# rf_model = pickle.load(open('rf_model.pkl', 'rb'))
-# scaler = pickle.load(open('scaler.pkl', 'rb'))
+ rf_model = pickle.load(open('rf_model.pkl', 'rb'))
+ scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 header_pic = Image.open('header.jpg')
 st.image(header_pic, use_column_width=True)
